@@ -1,0 +1,6 @@
+{
+  "name": "Nekenzie Cup 2026",
+  "description": "Mobile-first tournament companion for Nekenzie Cup 2026 with 12-point match scoring, win-loss points (1 for win, 0 for loss), point differential (+/-), Point Hunter recognition, and live score recording.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

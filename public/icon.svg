@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="courtGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b" />
+      <stop offset="100%" stop-color="#022c22" />
+    </linearGradient>
+    <linearGradient id="ballGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ccff00" />
+      <stop offset="100%" stop-color="#a3e635" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+  <!-- Background squircle -->
+  <rect width="512" height="512" rx="115" fill="url(#courtGrad)" />
+  
+  <!-- Tennis Court Grid lines -->
+  <rect x="76" y="76" width="360" height="360" rx="16" fill="none" stroke="#10b981" stroke-width="6" opacity="0.3" />
+  <line x1="76" y1="256" x2="436" y2="256" stroke="#10b981" stroke-width="8" opacity="0.4" />
+  <line x1="256" y1="76" x2="256" y2="436" stroke="#10b981" stroke-width="4" opacity="0.3" />
+  <line x1="140" y1="76" x2="140" y2="436" stroke="#10b981" stroke-width="3" opacity="0.2" />
+  <line x1="372" y1="76" x2="372" y2="436" stroke="#10b981" stroke-width="3" opacity="0.2" />
+
+  <!-- Tennis Racket Silhouette -->
+  <circle cx="256" cy="220" r="110" fill="none" stroke="url(#goldGrad)" stroke-width="16" />
+  <ellipse cx="256" cy="220" rx="90" ry="100" fill="#047857" fill-opacity="0.3" stroke="#fef08a" stroke-width="4" stroke-dasharray="10 6" />
+  <path d="M 256 330 L 256 420" stroke="url(#goldGrad)" stroke-width="20" stroke-linecap="round" />
+  <rect x="242" y="390" width="28" height="40" rx="6" fill="#f59e0b" />
+
+  <!-- Glowing Tennis Ball -->
+  <circle cx="330" cy="180" r="54" fill="url(#ballGrad)" filter="drop-shadow(0 8px 16px rgba(0,0,0,0.4))" />
+  <!-- Tennis Ball seam curves -->
+  <path d="M 295 155 Q 330 180 295 205" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" />
+  <path d="M 365 155 Q 330 180 365 205" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" />
+
+  <!-- Trophy Icon / Stars -->
+  <path d="M 256 120 L 262 138 L 280 138 L 265 150 L 271 168 L 256 156 L 241 168 L 247 150 L 232 138 L 250 138 Z" fill="#fbbf24" />
+</svg>
